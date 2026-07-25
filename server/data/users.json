@@ -1,0 +1,15 @@
+[
+  {
+    "id": "18281a89-32f1-40a2-a7da-80498d0d2f5b",
+    "name": "sam",
+    "email": "sam12@gmail.com",
+    "password": "$2a$10$0V9erX8C2w/QMm.vIl0B6uioO.wIXXsNhlQhibOKv3qwrzNA42Eem",
+    "cart": [
+      {
+        "productId": 2,
+        "quantity": 1
+      }
+    ],
+    "createdAt": "2026-07-25T08:37:01.968Z"
+  }
+]

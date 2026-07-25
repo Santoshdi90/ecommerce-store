@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Noise Cancelling Headphones",
+    "description": "Premium over-ear headphones with active noise cancellation. Up to 30 hours battery life. Foldable design with carrying case included.",
+    "price": 79.99,
+    "category": "Electronics",
+    "stock": 24,
+    "rating": 4.5,
+    "reviews": 128,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Gaming Keyboard",
+    "description": "Full size mechanical keyboard with RGB backlight. Blue switches for tactile feedback. Compatible with Windows and Mac.",
+    "price": 54.99,
+    "category": "Electronics",
+    "stock": 15,
+    "rating": 4.3,
+    "reviews": 74,
+    "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "USB-C Fast Charger 65W",
+    "description": "Universal fast charger compatible with laptops, phones and tablets. Comes with 2m braided cable. Smart power distribution.",
+    "price": 24.99,
+    "category": "Electronics",
+    "stock": 50,
+    "rating": 4.6,
+    "reviews": 213,
+    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 4,
+    "name": "Portable Bluetooth Speaker",
+    "description": "Waterproof outdoor speaker with 360 degree sound. 12 hour playtime. Pairs with 2 devices simultaneously.",
+    "price": 39.99,
+    "category": "Electronics",
+    "stock": 30,
+    "rating": 4.2,
+    "reviews": 96,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 5,
+    "name": "Men's Running Sneakers",
+    "description": "Lightweight breathable mesh upper with cushioned sole. Great for everyday running and gym workouts. Available in multiple colors.",
+    "price": 64.99,
+    "category": "Clothing",
+    "stock": 40,
+    "rating": 4.4,
+    "reviews": 187,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 6,
+    "name": "Classic Denim Jacket",
+    "description": "Slim fit denim jacket with button closure. Classic five-pocket styling. Pre-washed for a worn-in look right out of the box.",
+    "price": 49.99,
+    "category": "Clothing",
+    "stock": 20,
+    "rating": 4.1,
+    "reviews": 62,
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 7,
+    "name": "Slim Fit Chino Pants",
+    "description": "Comfortable stretch chino pants. Machine washable. Perfect for casual and semi-formal occasions.",
+    "price": 34.99,
+    "category": "Clothing",
+    "stock": 35,
+    "rating": 4.0,
+    "reviews": 55,
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 8,
+    "name": "Cotton Graphic T-Shirt",
+    "description": "100% combed cotton t-shirt with original graphic print. Pre-shrunk and color fast. Available in S, M, L, XL.",
+    "price": 19.99,
+    "category": "Clothing",
+    "stock": 60,
+    "rating": 4.3,
+    "reviews": 142,
+    "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 9,
+    "name": "Ergonomic Office Chair",
+    "description": "Adjustable lumbar support and armrests. Breathable mesh back. Supports up to 120kg. 5-year warranty on frame.",
+    "price": 189.99,
+    "category": "Home",
+    "stock": 10,
+    "rating": 4.7,
+    "reviews": 309,
+    "image": "https://images.unsplash.com/photo-1589384267710-7a170981ca78?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 10,
+    "name": "Ceramic Coffee Mug Set (4 pcs)",
+    "description": "Set of 4 handcrafted ceramic mugs, 350ml each. Dishwasher and microwave safe. Come in an attractive gift box.",
+    "price": 27.99,
+    "category": "Home",
+    "stock": 45,
+    "rating": 4.5,
+    "reviews": 88,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 11,
+    "name": "LED Desk Lamp with USB Port",
+    "description": "Touch-controlled LED desk lamp with 5 brightness levels. Built-in USB-A charging port. Eye-care mode reduces flicker.",
+    "price": 32.99,
+    "category": "Home",
+    "stock": 22,
+    "rating": 4.4,
+    "reviews": 117,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=400&fit=crop"
+  },
+  {
+    "id": 12,
+    "name": "Non-stick Cookware Set (5 pcs)",
+    "description": "Granite-coated non-stick pans. PFOA free. Compatible with all stovetops including induction. Dishwasher safe.",
+    "price": 74.99,
+    "category": "Home",
+    "stock": 18,
+    "rating": 4.6,
+    "reviews": 231,
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop"
+  }
+]
