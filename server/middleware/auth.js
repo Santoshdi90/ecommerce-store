@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
-const SECRET = 'shopease_jwt_secret_key_2024'; // in production move to .env
+const SECRET = process.env.JWT_SECRET || 'shopease_jwt_secret_key_2024';
 
 function verifyToken(req, res, next) {
   const authHeader = req.headers['authorization'];

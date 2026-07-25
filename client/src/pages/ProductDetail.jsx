@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import axios from 'axios';
+import api from '../api';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
 
@@ -18,7 +18,7 @@ function ProductDetail() {
   useEffect(() => {
     async function loadProduct() {
       try {
-        const res = await axios.get(`/api/products/${id}`);
+        const res = await api.get(`/api/products/${id}`);
         setProduct(res.data);
       } catch (err) {
         console.error('Product not found');

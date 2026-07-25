@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import api from '../api';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
 
@@ -62,7 +62,7 @@ function Checkout() {
 
     setPlacing(true);
     try {
-      const res = await axios.post('/api/orders/checkout',
+      const res = await api.post('/api/orders/checkout',
         { address: addressStr },
         { headers: { Authorization: `Bearer ${token}` } }
       );

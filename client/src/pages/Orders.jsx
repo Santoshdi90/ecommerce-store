@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import api from '../api';
 import { useAuth } from '../context/AuthContext';
 
 function Orders() {
@@ -17,7 +17,7 @@ function Orders() {
 
   async function fetchOrders() {
     try {
-      const res = await axios.get('/api/orders', {
+      const res = await api.get('/api/orders', {
         headers: { Authorization: `Bearer ${token}` }
       });
       setOrders(res.data);

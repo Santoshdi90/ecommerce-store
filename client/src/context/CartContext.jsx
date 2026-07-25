@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import axios from 'axios';
+import api from '../api';
 import { useAuth } from './AuthContext';
 
 const CartContext = createContext(null);
@@ -22,7 +22,7 @@ export function CartProvider({ children }) {
   async function fetchCart() {
     try {
       setLoading(true);
-      const res = await axios.get('/api/cart', {
+      const res = await api.get('/api/cart', {
         headers: { Authorization: `Bearer ${token}` }
       });
       setCartItems(res.data);
@@ -35,7 +35,7 @@ export function CartProvider({ children }) {
 
   async function addToCart(productId, quantity = 1) {
     try {
-      await axios.post('/api/cart/add', { productId, quantity }, {
+      await api.post('/api/cart/add', { productId, quantity }, {
         headers: { Authorization: `Bearer ${token}` }
       });
       await fetchCart(); // refresh cart after adding
@@ -47,7 +47,7 @@ export function CartProvider({ children }) {
 
   async function removeFromCart(productId) {
     try {
-      await axios.delete(`/api/cart/remove/${productId}`, {
+      await api.delete(`/api/cart/remove/${productId}`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       await fetchCart();
@@ -58,7 +58,7 @@ export function CartProvider({ children }) {
 
   async function updateQuantity(productId, quantity) {
     try {
-      await axios.put('/api/cart/update', { productId, quantity }, {
+      await api.put('/api/cart/update', { productId, quantity }, {
         headers: { Authorization: `Bearer ${token}` }
       });
       await fetchCart();

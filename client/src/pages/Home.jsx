@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import api from '../api';
 import ProductCard from '../components/ProductCard';
 
 const CATEGORIES = ['all', 'Electronics', 'Clothing', 'Home'];
@@ -22,7 +22,7 @@ function Home() {
       if (search) params.search = search;
       if (category !== 'all') params.category = category;
 
-      const res = await axios.get('/api/products', { params });
+      const res = await api.get('/api/products', { params });
       setProducts(res.data);
     } catch (err) {
       console.error('Failed to load products:', err);
