@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
@@ -7,7 +7,7 @@ import { useCart } from '../context/CartContext';
 function Checkout() {
   const { isLoggedIn, token } = useAuth();
   const { cartItems, cartTotal, clearCart } = useCart();
-  const navigate = useNavigate();
+
 
   const [form, setForm] = useState({
     fullName: '',
